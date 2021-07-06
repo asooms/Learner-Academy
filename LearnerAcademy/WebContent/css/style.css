@@ -1,0 +1,203 @@
+html, body{
+	 
+	width: 100%;
+	height: 100%;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  background-repeat: inherit;
+  background-attachment: fixed;
+  background-position: top right;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  direction: ltr;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.sidenav  {
+  width: 100%;
+  height:100px;
+  margin-bottom:10px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+  
+}
+
+.menu {
+	margin: 0;
+  padding: 0;
+	float:left;
+}
+.menu  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+.menu  ul li {
+  margin: 0 5px;
+  border-radius: 6px;
+  display: inline;
+}
+.menu  ul li a {
+  line-height: 80px;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu ul li #item:hover {
+  background: #e2472f;
+  border-radius: 6px;
+}
+
+.menu  ul li a.active {
+  background: #e2472f;
+  color: #fff;
+  border-radius: 6px;
+}
+.sidenav #logout a{
+	line-height: 80px;
+    color: #fff;
+    float:right;
+	text-decoration: none; 
+	font-size: 15px; 
+	font-weight: bold;
+}
+
+
+
+#page{
+	padding: 20px 70px;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+table { 
+	margin-left: auto;
+	margin-right: auto;
+	
+	border-collapse:collapse;
+	border:1px solid gray;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+
+}
+ 
+table th {
+	
+	border-bottom:1px solid gray;
+	background:none repeat scroll 0 0 #0775d3;
+	padding:12px 30px;
+	color: #FFFFFF;
+}
+
+table tr {
+	
+	border-top:1px solid gray;
+	text-align:center;	
+}
+ 
+table tr:nth-child(even) {background: #FFFFFF}
+table tr:nth-child(odd) {background: #BBBBBB}	
+
+table td {
+	padding:10px 0;
+	border-top:1px solid gray;
+	text-align:center;	
+}
+ 
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+	 }
+
+
+#container { 
+
+	align-items: center;
+	}
+#container h3 {
+	color: #000;
+	}
+#container #content {
+	margin-top: 20px;
+	}
+
+.add-student-button {
+	border: 1px solid #666; 
+	border-radius: 5px; 
+	padding: 4px; 
+	font-size: 12px;
+	font-weight: bold;
+	width: 120px; 
+	padding: 5px 10px; 
+	margin-bottom: 15px;
+	background: #cccccc;
+}
+
+
+
+.bar-item{	
+		border-color: #FFFFFF;
+		border-width: 3px;
+		border-bottom: .5px solid rgba(255, 255, 255, 0.247);
+		 
+}
+
+input,
+textarea,select {
+  width: 300px;
+  border: 1px solid #555;
+  padding: 5px 10px;
+  color: #111;
+  outline: none;
+  font-size: 18px;
+   border-radius: 10px;
+}
+
+
+button {
+	width: 200px;
+  background: #e2472f;
+  border: 1px solid #555;
+  padding: 10px 10px;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.add-class {
+  padding: 10px 30px 10px 20px;
+  float: right;
+}
+.add-class h4 {
+  font-size: 24px;
+  color: #e2472f;
+  margin: 0 0 10px 0;
+}
+
+#listview{
+  padding: 5px 20px;
+  color: #fff;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  background: #29f796;
+  border-radius: 6px;
+}
+
+#listview:hover {
+  background: #e2472f;
+  border-radius: 6px;
+}
